@@ -23,12 +23,12 @@ marvel.comics.findAll(1, function(err, results) {
       return console.error(err);
     }
 
+    console.log("Data provided by Marvel. © 2014 Marvel");
     console.log(results.data[0].title);
     console.log(results.data[0].description);
     console.log(results.data[0].thumbnail.path + "/portrait_uncanny." + results.data[0].thumbnail.extension);
   });
 
 });
-
 
 
