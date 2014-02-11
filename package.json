@@ -1,0 +1,12 @@
+{
+	  "name": "marvel",
+	  "version": "0.1.0",
+	  "description": "A Marvel API demo",
+	  "main": "index.js",
+		"keywords": [
+			          "marvel"
+		],
+		"dependencies": {
+		"marvel-api": "~0.2.0"
+	  }
+}
